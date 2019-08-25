@@ -15,6 +15,7 @@ public class ListGUI {
     private JButton leerenButton;
     private JTextField textField1;
     private JTextPane textPane1;
+
     private boolean ausgabeIstLeer = true;
     private String eingabe;
     private String ausgabe;
@@ -58,6 +59,10 @@ public class ListGUI {
             public void actionPerformed(ActionEvent e) {
                 eingabe = textField1.getText();
                 ausgabe = textPane1.getText();
+                if(eingabe.matches("")){
+                    JOptionPane.showMessageDialog(null, "Keine Eingabe", "Fehlermeldung", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
                 if(ausgabeIstLeer){
                     textPane1.setText(eingabe);
                     ausgabeIstLeer = false;
