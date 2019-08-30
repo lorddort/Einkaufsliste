@@ -1,21 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
-    <option name="y" value="23" />
-    <option name="width" value="1386" />
-    <option name="height" value="877" />
+  <component name="ChangeListManager">
+    <list default="true" id="c8cf6bd2-1f2e-4257-b9ce-56167033119d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG732871_364762.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/eddi/shoppingList/Options/GeneratePDFTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/eddi/shoppingList/Options/LoadFilesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/eddi/shoppingList/Options/SaveFilesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/FileChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/OptionPanes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/Options/GeneratePDF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/Options/LoadFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/Options/SaveFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/FileChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/FileChooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/OptionPanes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/OptionPanes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/GeneratePDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/GeneratePDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/LoadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/LoadFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/SaveFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/SaveFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Früh.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mittag.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Q15dQ2cxnWxpiWFfu4Rh4EH88L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566824763632" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.eddi.shoppingList.GUI" />
+      <recent name="org.eddi.shoppingList.Options" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.eddi.shoppingList.GUI.Main" />
-      <module name="ShoppingList_main" />
+      <option name="MAIN_CLASS_NAME" value="org.eddi.shoppingList.Main" />
+      <module name="EinkaufsListe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.eddi.shoppingList.GUI.*" />
+          <option name="PATTERN" value="org.eddi.shoppingList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -23,10 +159,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in EinkaufsListe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EinkaufsListe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in EinkaufsListe" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8cf6bd2-1f2e-4257-b9ce-56167033119d" name="Default Changelist" comment="" />
+      <created>1566925349017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566925349017</updated>
+      <workItem from="1566925352767" duration="793000" />
+      <workItem from="1566931049660" duration="264000" />
+      <workItem from="1566933519021" duration="650000" />
+      <workItem from="1566935153285" duration="2204000" />
+      <workItem from="1567002822894" duration="138000" />
+      <workItem from="1567080649073" duration="1980000" />
+      <workItem from="1567168135681" duration="3131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

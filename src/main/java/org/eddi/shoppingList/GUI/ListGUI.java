@@ -1,5 +1,6 @@
 package org.eddi.shoppingList.GUI;
 
+import org.eddi.shoppingList.Main;
 import org.eddi.shoppingList.Options.GeneratePDF;
 import org.eddi.shoppingList.Options.LoadFiles;
 import org.eddi.shoppingList.Options.SaveFiles;
@@ -11,22 +12,26 @@ import java.awt.event.WindowEvent;
 import java.io.*;
 
 public class ListGUI {
-    private JPanel pane;
+    private JPanel panel;
     private JButton hinzufügenButton;
     private JButton speichernButton;
     private JButton beendenButton;
     private JButton ladenButton;
     private JButton leerenButton;
     private JButton PDFErstellenButton;
-    private JTextField textField1;
     private JTextPane textPane1;
+    private JComboBox comboBox1;
 
     private boolean ausgabeIstLeer = true;
     private String eingabe;
     private String ausgabe;
-    private int gespeicherteDateien = 0;
+    private String name;
+
+    OptionPanes optionPane = new OptionPanes();
+    FileChooser chooseFile = new FileChooser();
 
     public ListGUI() {
+
         beendenButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -53,23 +58,28 @@ public class ListGUI {
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
+                name = loading.getName();
             }
         });
 
         PDFErstellenButton.addActionListener(new ActionListener() {
+            //TODO PDF ordentlich Liste erstellen
             @Override
             public void actionPerformed(ActionEvent e) {
                 GeneratePDF generate = new GeneratePDF();
-                generate.createPDF();
+                try {
+                    generate.createPDF(textPane1, name);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
             }
         });
 
         speichernButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                SaveFiles saving = new SaveFiles();
                 try {
-                    saving.save(textPane1);
+                    name = chooseFile.fileSavingLocation(textPane1);
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
@@ -79,12 +89,11 @@ public class ListGUI {
         hinzufügenButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                eingabe = textField1.getText();
+                eingabe = comboBox1.getSelectedItem().toString();
                 ausgabe = textPane1.getText();
 
                 if(eingabe.matches("")){
-                    OptionPanes optionPane = new OptionPanes();
-                    optionPane.showErrorMessage();
+                    optionPane.showErrorMessage("Keine Eingaben");
                     return;
                 }
 
@@ -94,11 +103,25 @@ public class ListGUI {
                 } else {
                     textPane1.setText(ausgabe + System.getProperty("line.separator") + eingabe);
                 }
+
+                comboBox1.removeAllItems();
             }
         });
     }
 
-    public JPanel getPane() {
-        return pane;
+    private void createUIComponents() {
+        panel = new JPanel();
+    }
+
+    public JPanel getPanel() {
+        return panel;
+    }
+
+    public JTextPane getTextPane1() {
+        return textPane1;
+    }
+
+    public String getName() {
+        return name;
     }
 }

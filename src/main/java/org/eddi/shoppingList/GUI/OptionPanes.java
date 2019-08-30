@@ -25,8 +25,8 @@ public class OptionPanes {
         JOptionPane.showMessageDialog(null, "Name existiert schon", "Fehlermeldung", JOptionPane.ERROR_MESSAGE);
     }
 
-    public void showErrorMessage(){
-        JOptionPane.showMessageDialog(null, "Keine Eingabe", "Fehlermeldung", JOptionPane.ERROR_MESSAGE);
+    public void showErrorMessage(String message){
+        JOptionPane.showMessageDialog(null, message, "Fehlermeldung", JOptionPane.ERROR_MESSAGE);
     }
 
     public void notExistingFile(){

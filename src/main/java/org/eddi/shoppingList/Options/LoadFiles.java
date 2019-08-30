@@ -12,9 +12,9 @@ import java.io.IOException;
 public class LoadFiles {
 
     OptionPanes optionPane = new OptionPanes();
+    String name;
 
     public JTextPane load(JTextPane textPane) throws IOException {
-        String name;
         name = optionPane.searchingPane();
         String direction = "src/main/resources/" + name + ".txt";
         boolean einzeiler = true;
@@ -41,5 +41,9 @@ public class LoadFiles {
         }
         read.close();
         return textPane;
+    }
+
+    public String getName(){
+        return name;
     }
 }
