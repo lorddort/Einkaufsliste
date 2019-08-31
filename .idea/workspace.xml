@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cf6bd2-1f2e-4257-b9ce-56167033119d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Products/SavingProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Produktliste.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG732871_364762.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/IMG732871_364762.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/FileChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/FileChooser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/OptionPanes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/OptionPanes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/GeneratePDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/GeneratePDF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/LoadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/LoadFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/SaveFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/SaveFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/FileChooser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/FileChooser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/OptionPanes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/OptionPanes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/GeneratePDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/GeneratePDF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/LoadFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/LoadFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/SaveFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/SaveFiles.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +136,7 @@
       <workItem from="1567168135681" duration="4009000" />
       <workItem from="1567180927942" duration="1771000" />
       <workItem from="1567196593837" duration="4307000" />
-      <workItem from="1567204181657" duration="8785000" />
+      <workItem from="1567204181657" duration="9505000" />
     </task>
     <servers />
   </component>
