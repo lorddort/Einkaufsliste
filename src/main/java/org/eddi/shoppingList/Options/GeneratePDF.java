@@ -3,18 +3,18 @@ package org.eddi.shoppingList.Options;
 import com.itextpdf.text.*;
 import com.itextpdf.text.Font;
 import com.itextpdf.text.pdf.PdfWriter;
-import org.eddi.shoppingList.GUI.ListGUI;
-import org.eddi.shoppingList.GUI.OptionPanes;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
+/**
+ * Generiert eine PDF Datei, die sofort geöffnet wird
+ */
 public class GeneratePDF {
-    public void createPDF(JTextPane text, String name) throws Exception {
-        name = "IMG732871_364762";
+    public void createPDF(JTextPane text) throws Exception {
+        String name = "IMG732871_364762";
         Document document = new Document();
         File file = new File(name + ".pdf");
         Desktop desktop = Desktop.getDesktop();
@@ -29,7 +29,7 @@ public class GeneratePDF {
         String content = text.getText();
         String[] splitting = content.split("\n");
         for(int i = 0; i < splitting.length; i++){
-            Chunk chunk = new Chunk(splitting[i] + ", ", font);
+            Chunk chunk;
             if(i == 0){
                 chunk = new Chunk(splitting[i], font);
             } else{
@@ -42,7 +42,5 @@ public class GeneratePDF {
         if(file.exists()) {
             desktop.open(file);
         }
-
-
     }
 }

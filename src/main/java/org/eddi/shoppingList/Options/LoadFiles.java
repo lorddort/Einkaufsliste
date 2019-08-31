@@ -1,6 +1,5 @@
 package org.eddi.shoppingList.Options;
 
-import org.eddi.shoppingList.GUI.FileChooser;
 import org.eddi.shoppingList.GUI.OptionPanes;
 
 import javax.swing.*;
@@ -11,18 +10,26 @@ import java.io.IOException;
 
 public class LoadFiles {
 
-    OptionPanes optionPane = new OptionPanes();
-    String name;
+    private OptionPanes optionPane = new OptionPanes();
 
-    public JTextPane load(JTextPane textPane) throws IOException {
-        name = optionPane.searchingPane();
-        String direction = "src/main/resources/" + name + ".txt";
+    /**
+     * Lädt die ausgewählte Datei in die Einkaufsliste
+     *
+     * @param textPane
+     *          Der Bereich, wo die Einkaufsliste steht
+     * @param fileChooser
+     *          Das Fenster, wo der Benutzer den Speicherort freiwählen kann
+     * @return
+     *          Gibt den ausgewählten Namen zurück
+     * @throws IOException
+     *          wirft eine IOException
+     */
+    public JTextPane load(JTextPane textPane, JFileChooser fileChooser) throws IOException {
         boolean einzeiler = true;
-        //FileChooser chooseFile = new FileChooser();
 
-        File file = new File(direction);
-        if (!file.canRead() || !file.isFile()) {
-            optionPane.notExistingFile();
+        File file = fileChooser.getSelectedFile();
+        if (!file.exists()) {
+            optionPane.showErrorMessage("Datei existiert nicht");
             throw new IOException();
         }
 
@@ -41,9 +48,5 @@ public class LoadFiles {
         }
         read.close();
         return textPane;
-    }
-
-    public String getName(){
-        return name;
     }
 }

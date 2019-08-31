@@ -2,65 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cf6bd2-1f2e-4257-b9ce-56167033119d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG732871_364762.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/eddi/shoppingList/Options/GeneratePDFTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/eddi/shoppingList/Options/LoadFilesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/eddi/shoppingList/Options/SaveFilesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Products/SavingProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Produktliste.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/FileChooser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/ListGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/GUI/OptionPanes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/Options/GeneratePDF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/Options/LoadFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/eddi/shoppingList/Options/SaveFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG732871_364762.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/IMG732871_364762.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/FileChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/FileChooser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/ListGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/OptionPanes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/GUI/OptionPanes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/GeneratePDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/GeneratePDF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/LoadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/LoadFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/SaveFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eddi/shoppingList/Options/SaveFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Früh.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mittag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/FileChooser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/FileChooser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/ListGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/OptionPanes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/GUI/OptionPanes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/GeneratePDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/GeneratePDF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/LoadFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/LoadFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/SaveFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/eddi/shoppingList/Options/SaveFiles.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +51,7 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -190,7 +155,10 @@
       <workItem from="1566935153285" duration="2204000" />
       <workItem from="1567002822894" duration="138000" />
       <workItem from="1567080649073" duration="1980000" />
-      <workItem from="1567168135681" duration="3131000" />
+      <workItem from="1567168135681" duration="4009000" />
+      <workItem from="1567180927942" duration="1771000" />
+      <workItem from="1567196593837" duration="4307000" />
+      <workItem from="1567204181657" duration="8785000" />
     </task>
     <servers />
   </component>
